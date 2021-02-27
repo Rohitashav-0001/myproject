@@ -10,7 +10,7 @@ export default {
     name:'blogs',
     data(){
         return {
-            blogTitle: 'Blogs'
+            blogTitle:  'Blogs'
         }
     },
     methods:{
