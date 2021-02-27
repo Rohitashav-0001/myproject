@@ -26,10 +26,10 @@
      return {
        title: 'My first Vue-application :)',
        friends: [
-                { name : 'Sheldon', online:true},
-                {name :'Howard', online:false},
-                {name:'Leonard', online:true},
-                {name:'Raj', online:false}
+                { name : 'Sheldon Cooper', online:true},
+                {name :'Howard Wolowitz', online:false},
+                {name:'Leonard Hofstader', online:true},
+                {name:'Rajesh Koothrapali', online:false}
             ]
       }
    },
