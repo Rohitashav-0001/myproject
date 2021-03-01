@@ -26,20 +26,22 @@
      return {
        title: 'My first Vue-application :)',
        friends: [
-                { name : 'Sheldon Cooper', online:true},
-                {name :'Howard Wolowitz', online:false},
-                {name:'Leonard Hofstader', online:true},
-                {name:'Rajesh Koothrapali', online:false}
+                { name : 'Sheldon Cooper', online:true },
+                { name :'Howard Wolowitz', online:false },
+                { name:'Leonard Hofstader', online:true },
+                { name:'Rajesh Koothrapali', online:false }
             ]
-      }
+       }
    },
-   methods: {
+
+  
+methods: {
      deleteFriend(pay){
           console.log(pay)
           this.friends = this.friends.filter(friend => {
             return friend.name !== pay.name
           })
-      }
+       }
     } 
   } 
 </script>
